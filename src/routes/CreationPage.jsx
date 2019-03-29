@@ -16,6 +16,10 @@ const HomeContainer = styled(Container)`
 
 
 class CreationPage extends Component {
+  componentDidMount() {
+    document.title = 'Добавление записи';
+  }
+
   submit = values => {
     this.props.createRecord(values)
   };

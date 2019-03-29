@@ -34,6 +34,7 @@ export class Home extends Component {
   };
 
   componentDidMount() {
+    document.title = 'Главная страница';
     if (!this.props.records.length) this.props.fetchRecords();
   }
 

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01922ddb-32fb-4a73-a0a9-f9cbbd351bb8" name="Default Changelist" comment="" />
+    <list default="true" id="01922ddb-32fb-4a73-a0a9-f9cbbd351bb8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/routes/CreationPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/CreationPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home.jsx" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/config.js">
           <provider selected="true" editor-type-id="text-editor" />
@@ -68,11 +62,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2498">
+            <state relative-caret-position="-2267">
               <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/routes/Home.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="36" column="38" selection-end-line="71" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/CreationPage.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,15 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="728">
               <caret line="109" column="22" lean-forward="true" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/modules/history.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -141,11 +150,11 @@
       <find>git rev-parse</find>
       <find>tools/</find>
       <find>git-info-webpack</find>
-      <find>publish</find>
       <find>gitInfoPlugin</find>
       <find>GitInfoPlugin</find>
       <find>GITHASH</find>
       <find>gitInfoPlugi</find>
+      <find>publish</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -178,20 +187,21 @@
         <option value="$PROJECT_DIR$/src/utils/submit.js" />
         <option value="$PROJECT_DIR$/src/utils/validator.js" />
         <option value="$PROJECT_DIR$/src/actions/app.js" />
-        <option value="$PROJECT_DIR$/src/routes/CreationPage.jsx" />
         <option value="$PROJECT_DIR$/src/containers/Form.jsx" />
         <option value="$PROJECT_DIR$/src/constants/index.js" />
         <option value="$PROJECT_DIR$/src/reducers/app.js" />
         <option value="$PROJECT_DIR$/assets/posts.json" />
         <option value="$PROJECT_DIR$/src/sagas/app.js" />
         <option value="$PROJECT_DIR$/src/containers/Record.jsx" />
-        <option value="$PROJECT_DIR$/src/routes/Home.jsx" />
         <option value="$PROJECT_DIR$/src/components/Header.jsx" />
         <option value="$PROJECT_DIR$/src/modules/history.js" />
         <option value="$PROJECT_DIR$/src/store/index.js" />
         <option value="$PROJECT_DIR$/tools/index.js" />
         <option value="$PROJECT_DIR$/config/webpack.config.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/routes/CreationPage.jsx" />
+        <option value="$PROJECT_DIR$/src/routes/Home.jsx" />
       </list>
     </option>
   </component>
@@ -251,6 +261,18 @@
               <item name="simpals-test-task" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simpals-test-task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simpals-test-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simpals-test-task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simpals-test-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sagas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simpals-test-task" type="b2602c69:ProjectViewProjectNode" />
@@ -320,12 +342,12 @@
       <workItem from="1553629167654" duration="3612000" />
       <workItem from="1553692635681" duration="647000" />
       <workItem from="1553716406901" duration="9038000" />
-      <workItem from="1553806620682" duration="15998000" />
+      <workItem from="1553806620682" duration="16202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31013000" />
+    <option name="totallyTimeSpent" value="31217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -381,7 +403,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/routes/Private.jsx" />
     <entry file="file://$PROJECT_DIR$/node_modules/react-helmet/lib/Helmet.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -621,16 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/CreationPage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sagas/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -647,16 +658,6 @@
           <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/Home.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -747,10 +748,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="649" lean-forward="true" selection-start-line="2" selection-start-column="649" selection-end-line="2" selection-end-column="649" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2498">
+        <state relative-caret-position="-2267">
           <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/CreationPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/Home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="36" column="38" selection-end-line="71" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
