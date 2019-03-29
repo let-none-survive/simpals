@@ -17,6 +17,7 @@ export const ActionTypes = keyMirror({
   FETCH_RECORDS_SUCCESS: undefined,
   FETCH_RECORDS_FAILURE: undefined,
   REMOVE_RECORD: undefined,
+  REMOVE_RECORD_SUCCESS: undefined,
   ADD_RECORD: undefined,
   ADD_RECORD_SUCCESS: undefined,
   ADD_RECORD_FAILURE: undefined,

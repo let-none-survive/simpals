@@ -35,11 +35,18 @@ export function* addRecord({ payload }) {
   yield push('/home');
 }
 
+export function* removeRecord({ payload }) {
+  yield put({ type: ActionTypes.REMOVE_RECORD_SUCCESS, payload });
+  yield put({ type: ActionTypes.SAVE_TO_LOCALSTORAGE });
+}
+
 
 export default function* root() {
   yield all([
     takeLatest(ActionTypes.FETCH_RECORDS, fetchPosts),
     takeLatest(ActionTypes.ADD_RECORD, addRecord),
+    takeLatest(ActionTypes.REMOVE_RECORD, removeRecord),
     takeEvery(ActionTypes.SAVE_TO_LOCALSTORAGE, setToLs),
+
   ]);
 }

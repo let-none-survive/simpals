@@ -30,7 +30,7 @@ export default (state = initialState, { type, payload }) => {
         isLoading: false,
         isError: true,
       };
-    case ActionTypes.REMOVE_RECORD:
+    case ActionTypes.REMOVE_RECORD_SUCCESS:
       const newData = state.records.filter(record => record.id !== payload);
       return {
         ...state,
